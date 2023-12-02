@@ -33,14 +33,11 @@ lst_1[-1]
 lst_1[0] == lst_1[-1]
 
 def Check_first_last(lst):
-    if lst[0] == lst[-1]:
-        answer = True
-    else:
-        answer = False
 
     print(f"Your list: {lst}")
-    print(f"Result is: {answer}")
+    print(f"Result is: {lst[0] == lst[-1]}")
 
 Check_first_last([1,2,3,4,5,1])
 Check_first_last(lst_1)
 Check_first_last(lst_2)
+
