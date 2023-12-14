@@ -41,3 +41,20 @@ class Person:
 
 p1 = Person("John", 36)
 print(p1)
+
+# Modify object properties
+print(p1.name, p1.age)
+
+p1.age = 40
+
+print(p1.name, p1.age)
+
+# Delete object properties
+del p1.age
+
+# Delete Objects
+del p1
+
+# Pass statement - class definitions cannot be empty, but if you for some reason have a class definition with no content, put in the pass statement to avoid getting an error.
+class notReady():
+    pass
