@@ -15,3 +15,15 @@ skoda = Car("Škoda", "Octavia", "Benzin", "Black")
 
 print(jaguar)
 print(skoda)
+
+# actual exercise
+class Car:
+    def __init__(self, colour, mileage):
+        self.colour = colour
+        self.mileage = mileage
+
+    def __str__(self):
+        return f"The {self.colour} car has {self.mileage} miles."
+    
+black = Car("black", 287000)
+print(black)
