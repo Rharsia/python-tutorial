@@ -105,9 +105,9 @@ class WhiteSwissShepherd(Dog):
     def speak(self, sound="Woof!"):
         return f"{self.name} says {sound}"
     
-luna = WhiteSwissShepherd("Luna", 3)
-luna.speak()
-
 miles = JackRussellTerrier("Miles", 4)
 miles.speak()
 
+luna = WhiteSwissShepherd("Luna", 3)
+luna.speak()
+luna.speak("Grrr")
